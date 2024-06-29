@@ -2,6 +2,7 @@ body{
     font-family: "Acme", sans-serif;
     /* font-weight: 400; */
      font-style: normal;
+     overflow: hidden;
 }
 
 *{
@@ -14,10 +15,16 @@ body{
     background-color: #0052FF;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 14%;
     font-size: 18px;
+    z-index: -1;
+
+}
+
+.top-header__logo {
+    margin-left: -70px;
 
 }
 
@@ -41,3 +48,111 @@ body{
     font-family: "Acme", sans-serif;
 
 }
+.hero{
+    background: #0052FF;
+    /* background-image: url('./assets/images/shutterstock_453643495-removebg.png');
+    background-size:87%;
+    background-repeat: no-repeat;
+    background-position-y:100%;
+    background-position-x: 205%; */
+    /* margin-right: -200px; */
+    color: #fff;
+    padding-top: 700px;
+    position: relative;
+   
+    z-index: 10;
+    height: 78vh;
+    /* border: 1px solid greenyellow; */
+   
+}
+
+.bg-image-wrapper {
+ position : absolute;
+    width: 100%;
+    top: -42px;
+    right: -520px;
+    bottom: 0;
+
+}
+
+.bg-img {
+    width: 76%;
+    position: absolute;
+    bottom: 0;
+}
+
+.hero__wrapper {
+    background: white;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+     top: 190px;
+    right: 320px; 
+    overflow: hidden;
+    padding: 1%;
+        border-radius: 4px;
+}
+.top-header__hr{
+    color: rgb(2555, 255, 2555, .9);
+    width: 100%;
+}
+
+.hero__content{
+
+    width: 50%;
+    margin-top: -490px;
+    margin-left: 16%;
+
+}
+.hero__cta{
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 100%;
+
+}
+.agency{
+    color: #FFCF26;
+    margin-bottom: 20px;
+}
+.hero__header{
+    margin: 15px 0;
+    font-size: 55px;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+.hero__btn{
+    background:#FFCF26;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 2px;
+    border: none;
+    font-family: "Acme", sans-serif;
+}
+.hero__content-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__img__wrapper{
+    background: white;
+    width: 100px;
+    height: 100px;
+    /* align-items: center; */
+    padding: 1%;
+        border-radius: 4px;
+}
+
+.hero__img-1{
+ margin-top: 10px;
+ margin-left: 2px;
+}
+
+
+
+.hero__img-2 {
+    margin-top: 4px;
+    margin-left: -6px;
+}
+
